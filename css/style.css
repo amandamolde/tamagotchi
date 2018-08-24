@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+	color: #08447D;
+	margin: 50px 5px;
+}
+.darkRoom {
+	background-color: black;
+	width: 280px;
+	height: 310px;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+img {
+	width: 280px;
+	height: 310px;
+	object-fit: contain;
+	margin: 0 auto;
+}
+#feed, #hungerProgress {
+	background-color: #53A451;
+	border-style: none;
+}
+#lights, #sleepinessProgress {
+	background-color: #49A0B5;
+	border-style: none;
+}
+#play, #boredomProgress {
+	background-color: #F6C244;
+	border-style: none;
+}
+#input-box {
+	font-size: 18px;
+	padding: 3px;
+	border-width: 2.5px;
+	vertical-align: bottom;
+}
+.row {
+	margin: 10px 0px;
+}
+.col-sm-4 {
+	margin: 5px 0px;
+}
